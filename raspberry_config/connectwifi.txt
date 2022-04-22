@@ -1,0 +1,6 @@
+wpa_passphrase <namewifi> <passwifi> > <namefile.conf>
+
+wpa_supplicant -B -c <pathfile.conf> -i <interface ex: wlan1>
+
+dhclient -v <interface wifi>
+
