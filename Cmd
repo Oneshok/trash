@@ -1,0 +1,12 @@
+Any cmd commands...
+
+
+# wifi list
+
+netsh wlan show profiles
+
+
+# show password
+
+netsh wlan show profiles name="namewifi" key=clear
+
