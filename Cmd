@@ -10,3 +10,7 @@ netsh wlan show profiles
 
 netsh wlan show profiles name="namewifi" key=clear
 
+# search line 
+
+netsh wlan show profiles name"" key=clear | findstr /i conten
+
